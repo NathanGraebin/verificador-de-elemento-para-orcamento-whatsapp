@@ -1,5 +1,7 @@
 # **Verificador de Elemento para gerar orçamento no WhatsApp**
-### *( Com botão de chamada para o Whats )*
+
+
+### * O que esperar desse pequeno projeto ?*
 ------
 Estarei utilzando esse espaço para trazer um código em JavaScript utilizado para Sku + Nome do Produto + Quantidade no Carrinho + Preço que estão no carrinho de um site.
 Posteriormente esses produtos serão anexados a um texto que ao clicar no botão do WhatsApp o texto já venha preenchido com os dados para orçamento;
