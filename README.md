@@ -10,3 +10,6 @@ Posteriormente esses produtos serão anexados a um texto que ao clicar no botão
 Olá, vim pelo site e quero fechar minha compra! Os produtos do meu orçamento são [ Sku + Produto Nome + Quantidade + Preço ] + etc...
 
 ------
+
+### **Referencias para criação do código**
+![image](https://github.com/user-attachments/assets/cbf27e18-212c-4919-85e2-b8135af56bfe)
