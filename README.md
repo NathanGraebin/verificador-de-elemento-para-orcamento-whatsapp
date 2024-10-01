@@ -27,9 +27,8 @@ Utilizeremos uma extesão CSS USED do Google Chorme, para poder obter o HTML + C
 Esse espaço sera destinado para a inclusão de atualizações que devem ser implementadas, junto com a sua data da ideia e posteriormente conclusão.
 
 ```
-- Captura de todos os dados [ Sku + Produto Nome + Quantidade + Preço ]
+- Captura de todos os dados [ Sku + Produto Nome + Quantidade + Preço + Total] > FEITO
+- Impressão da mensagem no Console com todos os produtos > FEITO
 - Incluir Botão WhatsApp
-- Capturar do total do pedido?
-w
-
+- Capturar do total do pedido? 
 ```
