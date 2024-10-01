@@ -29,6 +29,7 @@ Esse espaço sera destinado para a inclusão de atualizações que devem ser imp
 ```
 - Captura de todos os dados [ Sku + Produto Nome + Quantidade + Preço ]
 - Incluir Botão WhatsApp
-- Capturar total do pedido?
+- Capturar do total do pedido?
+w
 
 ```

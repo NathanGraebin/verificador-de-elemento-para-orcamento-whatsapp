@@ -1,272 +1,306 @@
 
-<table id="shopping-cart-table" class="cart-table data-table">
-    <colgroup><col width="1">
-        <col width="350">
-        <col width="100">
-        <col width="100">
-        <col width="100">
-        <col width="100">
+<style>
+table#shopping-cart-table {
+    background: gray !important;
+}
 
-    </colgroup><thead>
-        <tr class="first last">
-            <th rowspan="1"><span
-                    class="nobr textoCartProdutos">Produto(s)</span></th>
+body {
+    width: 100% !important;
+    height: auto !important;
+    background: #c1c1c1 !important; 
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #c1c1c1 !important; 
+}
 
-            <th rowspan="1">&nbsp;</th>
+</style>
+<div class="box">
+    <table id="shopping-cart-table" class="cart-table data-table">
+        <colgroup><col width="1">
+            <col width="350">
+            <col width="100">
+            <col width="100">
+            <col width="100">
+            <col width="100">
 
-            <th class="a-center cart-price-head" colspan="1">
-                <span class="nobr">Preço</span>
-            </th>
+        </colgroup><thead>
+            <tr class="first last">
+                <th rowspan="1"><span
+                        class="nobr textoCartProdutos">Produto(s)</span></th>
 
-            <th rowspan="1" class="a-center">
-                Quantidade
-            </th>
-            <th class="a-center cart-total-head" colspan="1">
-                Valor Total </th>
-            <th class="a-center" rowspan="1">&nbsp;</th>
-        </tr>
-    </thead>
-    <tfoot>
-        <tr class="first last">
-            <td colspan="50" class="a-right cart-footer-actions last">
+                <th rowspan="1">&nbsp;</th>
 
-                <button type="submit" style="visibility:hidden;"
-                    data-cart-item-update name="update_cart_action"
-                    value="update_qty" title="Atualizar Valores"
-                    class="button2 btn-update"><span><span>Atualizar
-                            Valores</span></span></button>
+                <th class="a-center cart-price-head" colspan="1">
+                    <span class="nobr">Preço</span>
+                </th>
 
-                <button type="submit" name="update_cart_action"
-                    data-cart-item-update value="update_qty"
-                    title="Atualizar Valores"
-                    class="button2 btn-update"><span><span>Atualizar
-                            Valores</span></span></button>
+                <th rowspan="1" class="a-center">
+                    Quantidade
+                </th>
+                <th class="a-center cart-total-head" colspan="1">
+                    Valor Total </th>
+                <th class="a-center" rowspan="1">&nbsp;</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="first last">
+                <td colspan="50" class="a-right cart-footer-actions last">
 
-                <button type="button" title="Escolher mais produtos"
-                    class="button2 btn-continue botaoContinue"><span><span>Escolher
-                            mais produtos</span></span></button>
-            </td>
-        </tr>
-    </tfoot>
-    <tbody>
-        <tr class="first odd">
-            <td class="product-cart-image">
-                <a href="#" title="Produto Rei das Velas" class="product-image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-                        alt="Produto Rei das Velas">
-                </a>
+                    <button type="submit" style="visibility:hidden;"
+                        data-cart-item-update name="update_cart_action"
+                        value="update_qty" title="Atualizar Valores"
+                        class="button2 btn-update"><span><span>Atualizar
+                                Valores</span></span></button>
 
-                <ul class="cart-links">
-                    <li>
-                        <a href="#"
-                            title="Editar parâmetros do produto">Editar</a>
-                    </li>
+                    <button type="submit" name="update_cart_action"
+                        data-cart-item-update value="update_qty"
+                        title="Atualizar Valores"
+                        class="button2 btn-update"><span><span>Atualizar
+                                Valores</span></span></button>
 
-                </ul>
-            </td>
+                    <button type="button" title="Escolher mais produtos"
+                        class="button2 btn-continue botaoContinue"><span><span>Escolher
+                                mais produtos</span></span></button>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="first odd">
+                <td class="product-cart-image">
+                    <a href="#" title="Produto Rei das Velas"
+                        class="product-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                            alt="Produto Rei das Velas">
+                    </a>
 
-            <td class="product-cart-info">
+                    <ul class="cart-links">
+                        <li>
+                            <a href="#"
+                                title="Editar parâmetros do produto">Editar</a>
+                        </li>
 
-                <a href="#" title="Excluir Item" class="btn-remove btn-remove2">
-                    Excluir Item </a>
+                    </ul>
+                </td>
 
-                <h2 class="product-name">
-                    <a href="#">Produto Rei das Velas</a>
-                </h2>
+                <td class="product-cart-info">
 
-                <div class="product-cart-sku">
-                    <span class="label">SKU:</span> reidasvelas001 </div>
+                    <a href="#" title="Excluir Item"
+                        class="btn-remove btn-remove2">
+                        Excluir Item </a>
 
-            </td>
+                    <h2 class="product-name">
+                        <a href="#">Camera A3 para Arduino</a>
+                    </h2>
 
-            <td class="product-cart-price" data-rwd-label="Preço"
-                data-rwd-tax-label="Excl. Imposto">
+                    <div class="product-cart-sku">
+                        <span class="label">SKU:</span> CAMA3TADN </div>
 
-                <span class="cart-price">
-                    <span class="price">R$ 20,00</span>
-                </span>
+                </td>
 
-            </td>
+                <td class="product-cart-price" data-rwd-label="Preço"
+                    data-rwd-tax-label="Excl. Imposto">
 
-            <td class="product-cart-actions" data-rwd-label="Qtd">
-                <input type="text" pattern="\d*(\.\d+)?" name="cart[135][qty]"
-                    value="5" size="4" data-cart-item-id="reidasvelas001"
-                    title="Qtd" class="input-text qty" maxlength="12">
+                    <span class="cart-price">
+                        <span class="price">R$ 20,00</span>
+                    </span>
 
-                <button type="submit" name="update_cart_action"
-                    data-cart-item-update value="update_qty" title="Atualizar"
-                    class="button btn-update"><span><span>Atualizar</span></span>
-                </button>
+                </td>
 
-                <ul class="cart-links">
-                    <li>
-                        <a href="#"
-                            title="Editar parâmetros do produto">Editar</a>
-                    </li>
+                <td class="product-cart-actions" data-rwd-label="Qtd">
+                    <input type="text" pattern="\d*(\.\d+)?"
+                        name="cart[135][qty]"
+                        value="5" size="4" data-cart-item-id="reidasvelas001"
+                        title="Qtd" class="input-text qty" maxlength="12">
 
-                </ul>
+                    <button type="submit" name="update_cart_action"
+                        data-cart-item-update value="update_qty"
+                        title="Atualizar"
+                        class="button btn-update"><span><span>Atualizar</span></span>
+                    </button>
 
-            </td>
+                    <ul class="cart-links">
+                        <li>
+                            <a href="#"
+                                title="Editar parâmetros do produto">Editar</a>
+                        </li>
 
-            <td class="product-cart-total" data-rwd-label="Subtotal">
-                <span class="cart-price">
+                    </ul>
 
-                    <span class="price">R$ 100,00</span>
-                </span>
-            </td>
-            <td class="a-center product-cart-remove last">
-                <a href="#" title="Excluir Item" class="btn-remove btn-remove2">
-                    Excluir Item </a>
-            </td>
-        </tr>
+                </td>
 
-        <tr class="even">
-            <td class="product-cart-image">
-                <a href="#" title="testeeee" class="product-image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-                        alt="testeeee">
-                </a>
+                <td class="product-cart-total" data-rwd-label="Subtotal">
+                    <span class="cart-price">
 
-                <ul class="cart-links">
-                    <li>
-                        <a href="#"
-                            title="Editar parâmetros do produto">Editar</a>
-                    </li>
+                        <span class="price">R$ 100,00</span>
+                    </span>
+                </td>
+                <td class="a-center product-cart-remove last">
+                    <a href="#" title="Excluir Item"
+                        class="btn-remove btn-remove2">
+                        Excluir Item </a>
+                </td>
+            </tr>
 
-                </ul>
-            </td>
+            <tr class="even">
+                <td class="product-cart-image">
+                    <a href="#" title="testeeee" class="product-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                            alt="testeeee">
+                    </a>
 
-            <td class="product-cart-info">
+                    <ul class="cart-links">
+                        <li>
+                            <a href="#"
+                                title="Editar parâmetros do produto">Editar</a>
+                        </li>
 
-                <a href="#" title="Excluir Item" class="btn-remove btn-remove2">
-                    Excluir Item </a>
+                    </ul>
+                </td>
 
-                <h2 class="product-name">
-                    <a href="#">testeeee</a>
-                </h2>
+                <td class="product-cart-info">
 
-                <div class="product-cart-sku">
-                    <span class="label">SKU:</span> ssssasasas </div>
+                    <a href="#" title="Excluir Item"
+                        class="btn-remove btn-remove2">
+                        Excluir Item </a>
 
-            </td>
+                    <h2 class="product-name">
+                        <a href="#">Suporte Arduino</a>
+                    </h2>
 
-            <td class="product-cart-price" data-rwd-label="Preço"
-                data-rwd-tax-label="Excl. Imposto">
+                    <div class="product-cart-sku">
+                        <span class="label">SKU:</span> PSS22SPARDN0985 </div>
 
-                <span class="cart-price">
-                    <span class="price">R$ 200,00</span>
-                </span>
+                </td>
 
-            </td>
+                <td class="product-cart-price" data-rwd-label="Preço"
+                    data-rwd-tax-label="Excl. Imposto">
 
-            <td class="product-cart-actions" data-rwd-label="Qtd">
-                <input type="text" pattern="\d*(\.\d+)?" name="cart[136][qty]"
-                    value="1" size="4" data-cart-item-id="ssssasasas"
-                    title="Qtd" class="input-text qty" maxlength="12">
+                    <span class="cart-price">
+                        <span class="price">R$ 299,99</span>
+                    </span>
 
-                <button type="submit" name="update_cart_action"
-                    data-cart-item-update value="update_qty" title="Atualizar"
-                    class="button btn-update"><span><span>Atualizar</span></span>
-                </button>
+                </td>
 
-                <ul class="cart-links">
-                    <li>
-                        <a href="#"
-                            title="Editar parâmetros do produto">Editar</a>
-                    </li>
+                <td class="product-cart-actions" data-rwd-label="Qtd">
+                    <input type="text" pattern="\d*(\.\d+)?"
+                        name="cart[136][qty]"
+                        value="1" size="4" data-cart-item-id="ssssasasas"
+                        title="Qtd" class="input-text qty" maxlength="12">
 
-                </ul>
+                    <button type="submit" name="update_cart_action"
+                        data-cart-item-update value="update_qty"
+                        title="Atualizar"
+                        class="button btn-update"><span><span>Atualizar</span></span>
+                    </button>
 
-            </td>
+                    <ul class="cart-links">
+                        <li>
+                            <a href="#"
+                                title="Editar parâmetros do produto">Editar</a>
+                        </li>
 
-            <td class="product-cart-total" data-rwd-label="Subtotal">
-                <span class="cart-price">
+                    </ul>
 
-                    <span class="price">R$ 200,00</span>
-                </span>
-            </td>
-            <td class="a-center product-cart-remove last">
-                <a href="#" title="Excluir Item" class="btn-remove btn-remove2">
-                    Excluir Item </a>
-            </td>
-        </tr>
+                </td>
 
-        <tr class="last odd">
-            <td class="product-cart-image">
-                <a href="#" title="Arduino Uno R3" class="product-image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-                        alt="Arduino Uno R3">
-                </a>
+                <td class="product-cart-total" data-rwd-label="Subtotal">
+                    <span class="cart-price">
 
-                <ul class="cart-links">
-                    <li>
-                        <a href="#"
-                            title="Editar parâmetros do produto">Editar</a>
-                    </li>
+                        <span class="price">R$ 299,99</span>
+                    </span>
+                </td>
+                <td class="a-center product-cart-remove last">
+                    <a href="#" title="Excluir Item"
+                        class="btn-remove btn-remove2">
+                        Excluir Item </a>
+                </td>
+            </tr>
 
-                </ul>
-            </td>
+            <tr class="last odd">
+                <td class="product-cart-image">
+                    <a href="#" title="Arduino Uno R3" class="product-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                            alt="Arduino Uno R3">
+                    </a>
 
-            <td class="product-cart-info">
+                    <ul class="cart-links">
+                        <li>
+                            <a href="#"
+                                title="Editar parâmetros do produto">Editar</a>
+                        </li>
 
-                <a href="#" title="Excluir Item" class="btn-remove btn-remove2">
-                    Excluir Item </a>
+                    </ul>
+                </td>
 
-                <h2 class="product-name">
-                    <a href="#">Arduino Uno R3</a>
-                </h2>
+                <td class="product-cart-info">
 
-                <div class="product-cart-sku">
-                    <span class="label">SKU:</span> 2478632516 </div>
+                    <a href="#" title="Excluir Item"
+                        class="btn-remove btn-remove2">
+                        Excluir Item </a>
 
-            </td>
+                    <h2 class="product-name">
+                        <a href="#">Arduino Uno R3</a>
+                    </h2>
 
-            <td class="product-cart-price" data-rwd-label="Preço"
-                data-rwd-tax-label="Excl. Imposto">
+                    <div class="product-cart-sku">
+                        <span class="label">SKU:</span> 2478632516 </div>
 
-                <span class="cart-price">
-                    <span class="price">R$ 25,00</span>
-                </span>
+                </td>
 
-            </td>
+                <td class="product-cart-price" data-rwd-label="Preço"
+                    data-rwd-tax-label="Excl. Imposto">
 
-            <td class="product-cart-actions" data-rwd-label="Qtd">
-                <input type="text" pattern="\d*(\.\d+)?" name="cart[137][qty]"
-                    value="1" size="4" data-cart-item-id="2478632516"
-                    title="Qtd" class="input-text qty" maxlength="12">
+                    <span class="cart-price">
+                        <span class="price">R$ 25,50</span>
+                    </span>
 
-                <button type="submit" name="update_cart_action"
-                    data-cart-item-update value="update_qty" title="Atualizar"
-                    class="button btn-update"><span><span>Atualizar</span></span>
-                </button>
+                </td>
 
-                <ul class="cart-links">
-                    <li>
-                        <a href="###"
-                            title="Editar parâmetros do produto">Editar</a>
-                    </li>
+                <td class="product-cart-actions" data-rwd-label="Qtd">
+                    <input type="text" pattern="\d*(\.\d+)?"
+                        name="cart[137][qty]"
+                        value="1" size="4" data-cart-item-id="2478632516"
+                        title="Qtd" class="input-text qty" maxlength="12">
 
-                </ul>
+                    <button type="submit" name="update_cart_action"
+                        data-cart-item-update value="update_qty"
+                        title="Atualizar"
+                        class="button btn-update"><span><span>Atualizar</span></span>
+                    </button>
 
-            </td>
+                    <ul class="cart-links">
+                        <li>
+                            <a href="###"
+                                title="Editar parâmetros do produto">Editar</a>
+                        </li>
 
-            <td class="product-cart-total" data-rwd-label="Subtotal">
-                <span class="cart-price">
+                    </ul>
 
-                    <span class="price">R$ 25,00</span>
-                </span>
-            </td>
-            <td class="a-center product-cart-remove last">
-                <a href="#" title="Excluir Item" class="btn-remove btn-remove2">
-                    Excluir Item </a>
-            </td>
-        </tr>
+                </td>
 
-    </tbody>
-</table>
+                <td class="product-cart-total" data-rwd-label="Subtotal">
+                    <span class="cart-price">
+
+                        <span class="price">R$ 25,50</span>
+                    </span>
+                </td>
+                <td class="a-center product-cart-remove last">
+                    <a href="#" title="Excluir Item"
+                        class="btn-remove btn-remove2">
+                        Excluir Item </a>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
 
 <style>
 
