@@ -26,9 +26,9 @@ Utilizeremos uma extesão CSS USED do Google Chorme, para poder obter o HTML + C
 # **QUADRO DE ATUALIZAÇÕES**
 Esse espaço sera destinado para a inclusão de atualizações que devem ser implementadas, junto com a sua data da ideia e posteriormente conclusão.
 
-'''
+```
 - Captura de todos os dados [ Sku + Produto Nome + Quantidade + Preço ]
 - Incluir Botão WhatsApp
 - Capturar total do pedido?
 
-'''
+```
