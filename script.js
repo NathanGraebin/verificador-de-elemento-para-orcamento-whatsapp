@@ -11,41 +11,6 @@ const produtos_preco = document.querySelectorAll(".product-cart-price .cart-pric
 
 const produtos_total = document.querySelectorAll(".product-cart-total .cart-price");
 
-// 
-// console.log("1 - CAPTURADOS: ", produtos_nome, produtos_nome.length);
-// console.log("1 - CAPTURADOS: ", produtos_sku, produtos_sku.length);
-// console.log("1 - CAPTURADOS: ", produtos_qtd, produtos_qtd.length);
-
-// console.log("----------------------------------------");
-
-// console.log("1.0 - ARRAY 0 - NOME> ", produtos_nome[0].querySelector("a").textContent);
-// console.log("1.0 - ARRAY 0 - SKU> ", produtos_sku[0].textContent.replace('SKU:', '').trim());
-// console.log("1.0 - ARRAY 0 - QTD> ", produtos_qtd[0].value);
-// console.log("1.0 - ARRAY 0: PREÇO PRODUTO>", produtos_preco[0].querySelector("span").textContent);
-// console.log("1.0 - ARRAY 0: PREÇO PRODUTO S/ R$>", produtos_preco[0].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-// console.log("1.0 - ARRAY 0: TOTAL>", produtos_total[0].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-
-
-// console.log("----------------------------------------");
-
-// console.log("1.0 - ARRAY 0 - NOME> ", produtos_nome[1].querySelector("a").textContent);
-// console.log("1.0 - ARRAY 0 - SKU> ", produtos_sku[1].textContent.replace('SKU:', '').trim());
-// console.log("1.0 - ARRAY 0 - QTD> ", produtos_qtd[1].value);
-// console.log("1.0 - ARRAY 0: PREÇO PRODUTO>", produtos_preco[1].querySelector("span").textContent);
-// console.log("1.0 - ARRAY 0: PREÇO PRODUTO S/ R$>", produtos_preco[1].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-// console.log("1.0 - ARRAY 0: TOTAL>", produtos_total[1].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-
-// console.log("----------------------------------------");
-
-// console.log("1.0 - ARRAY 0 - NOME> ", produtos_nome[2].querySelector("a").textContent);
-// console.log("1.0 - ARRAY 0 - SKU> ", produtos_sku[2].textContent.replace('SKU:', '').trim());
-// console.log("1.0 - ARRAY 0 - QTD> ", produtos_qtd[2].value);
-// console.log("1.0 - ARRAY 0: PREÇO PRODUTO>", produtos_preco[2].querySelector("span").textContent);
-// console.log("1.0 - ARRAY 0: PREÇO PRODUTO S/ R$>", produtos_preco[2].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-// console.log("1.0 - ARRAY 0: TOTAL>", produtos_total[2].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-// console.log("----------------------------------------");
-
-
 for(let i = 0; i < produtos_nome.length; i++) {
 
     f_produto_nome = "Nome: " + produtos_nome[i].querySelector("a").textContent;
