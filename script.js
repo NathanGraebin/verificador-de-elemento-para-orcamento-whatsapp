@@ -1,3 +1,5 @@
+
+
 const produtos_capturados_nao_tratados = document.querySelectorAll(".product-cart-info .product-name");
 
 var produtos_para_mensagem = "";
