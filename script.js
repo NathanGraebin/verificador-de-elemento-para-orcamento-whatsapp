@@ -48,14 +48,6 @@ const produtos_total = document.querySelectorAll(".product-cart-total .cart-pric
 
 for(let i = 0; i < produtos_nome.length; i++) {
 
-    // console.log("################################################################################################");
-    // console.log("1.0 - ARRAY 0 - NOME> ", produtos_nome[i].querySelector("a").textContent);
-    // console.log("1.0 - ARRAY 0 - SKU> ", produtos_sku[i].textContent.replace('SKU:', '').trim());
-    // console.log("1.0 - ARRAY 0 - QTD> ", produtos_qtd[i].value);
-    // console.log("1.0 - ARRAY 0: PREÇO PRODUTO>", produtos_preco[i].querySelector("span").textContent);
-    // console.log("1.0 - ARRAY 0: PREÇO PRODUTO S/ R$>", produtos_preco[i].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-    // console.log("1.0 - ARRAY 0: TOTAL>", produtos_total[i].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim());
-
     f_produto_nome = "Nome: " + produtos_nome[i].querySelector("a").textContent;
     f_produto_sku = "SKU: " + produtos_sku[i].textContent.replace('SKU:', '').trim();
     f_produto_qtd = "Qtd: " + produtos_qtd[i].value;
@@ -69,3 +61,28 @@ for(let i = 0; i < produtos_nome.length; i++) {
 var cabecalho = "Olá, vim pelo site e quero fechar minha compra! Os produtos do meu orçamento são > ";
 
 console.log(cabecalho + msg);
+
+
+// GERADO POR CHAT GPT
+// PROMPT > Qual forma mais profissional e otimizada de fazer isso em javascript
+
+// const produtos = [];
+
+// for (let i = 0; i < produtos_nome.length; i++) {
+//   const produto = {
+//     nome: produtos_nome[i].querySelector("a").textContent,
+//     sku: produtos_sku[i].textContent.replace('SKU:', '').trim(),
+//     qtd: produtos_qtd[i].value,
+//     preco: produtos_preco[i].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim(),
+//     total: produtos_total[i].querySelector("span").textContent.replace(/^R\$?\s*/, '').trim(),
+//   };
+//   produtos.push(produto);
+// }
+
+// const msgProdutos = produtos.map(produto => {
+//   return `[ Nome: ${produto.nome} + SKU: ${produto.sku} + Qtd: ${produto.qtd} + Preço: ${produto.preco} + Total: ${produto.total} ]`;
+// }).join('\n');
+
+// const cabecalho = "Olá, vim pelo site e quero fechar minha compra! Os produtos do meu orçamento são:\n";
+
+// console.log(cabecalho + msgProdutos);
