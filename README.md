@@ -30,5 +30,8 @@ Esse espaço sera destinado para a inclusão de atualizações que devem ser imp
 - Captura de todos os dados [ Sku + Produto Nome + Quantidade + Preço + Total] > FEITO
 - Impressão da mensagem no Console com todos os produtos > FEITO
 - Incluir Botão WhatsApp
-- Capturar do total do pedido? 
+- Capturar do total do pedido?
+- Incluir verificação tyOf
+- Otimizar o código, deixando ele mais limpo, utilizar forEach e validação unica para cada um dentro do forEach de tyOf
+
 ```
